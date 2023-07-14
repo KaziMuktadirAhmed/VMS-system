@@ -57,18 +57,26 @@ Infrastructure scaling: Infrastructure was configured to scale automatically dur
 # ScaleUp Policy
 
 CloudWatch Metric :
-CpuUtilization
-Rule :
-CpuUtilization >= 75%
-Add Instance = 1
+
+  CpuUtilization
+
+    Rule :
+
+      CpuUtilization >= 75%
+
+    Add Instance = 1
 
 # ScaleDown Policy
 
 CloudWatch Metric :
-CpuUtilization
-Rule :
-CpuUtilization <= 25%
-Remove Instance = 1
+
+  CpuUtilization
+
+    Rule :
+
+      CpuUtilization <= 25%
+
+    Remove Instance = 1
 
 
 These are the links for individual repositories
