@@ -77,7 +77,9 @@ CloudWatch Metric :
       CpuUtilization <= 25%
 
     Remove Instance = 1
+# Final Architure of the system
 
+![Final Architecture](https://github.com/rakib3004/VMS-backend/blob/main/Architecture.png)
 
 These are the links for individual repositories
 
